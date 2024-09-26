@@ -4,14 +4,13 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  padding-top: 120px; /* Menambahkan jarak agar konten tidak tertutup oleh navbar */
+  padding-top: 120px;
 }
 
 .navbar {
-  /* Hapus position: fixed; agar navbar tidak bergulir */
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan agar terlihat mengambang */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .carousel-item img {
@@ -39,7 +38,7 @@ body {
 
 .circle img {
   border-radius: 50%;
-  width: 150px; /* Sesuaikan ukuran sesuai keinginan */
+  width: 150px;
   height: 150px;
   object-fit: cover;
 }
